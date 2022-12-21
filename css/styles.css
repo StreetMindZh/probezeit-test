@@ -1,4 +1,42 @@
-.fakeimg {
-    height: 200px;
-    background: #aaa;
+/* Add your custom styles here */
+
+body {
+    background-color: #bd0808;
   }
+  
+  .bg-primary {
+    background-color: #2bdaa6;
+  }
+  
+  .bg-dark {
+    background-color: #9d9d9d;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .nav-item a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-item a:hover {
+    color: #007bff;
+  }
+  
+  .btn-link {
+    color: white;
+  }
+  
+  .btn-link:hover {
+    color: #007bff;
+  }
+  
+  .container {
+    max-width: 100%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
