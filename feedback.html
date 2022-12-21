@@ -36,10 +36,15 @@
   </div>
 </nav>
 
-<div class="row">
-    <div class="col">test</div>
-    <div class="col">test</div>
-    <div class="col">test</div>
+<div class="container mt-5">
+    <h1>Hi there! We hope you had a great experience with our company.</h1>
+    <p>Please take a moment to let us know how we did by selecting one of the smiley faces below:</p>
+    <div class="form-group">
+      <!-- Use Bootstrap buttons to create the smiley face options -->
+      <button type="button" class="btn btn-success" data-value=":)">:) Great! We're happy to hear that you had a positive experience.</button>
+      <button type="button" class="btn btn-danger" data-value=":(">:( Oops! We're sorry to hear that you didn't have the best experience.</button>
+    </div>
+    <div id="feedback-message"></div>
   </div>
 
 
